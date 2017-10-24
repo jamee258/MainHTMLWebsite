@@ -1,0 +1,418 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+html {
+    margin-top: -20px;
+    width: 100%;
+    font-family: 'helvetica neue', calibri;
+    background-color: white, #e6f2e9;
+    overflow-x: hidden;
+}
+
+#top-banner {
+    background-color: #54c5ff;
+    height: 233px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+#main-bit {
+    margin-top: ;
+    padding: none;
+}
+
+#main-title {
+    /*    margin-left: -100px;*/
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#logo {
+    font-family: 'Open Sans';
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: yellow 2px 2px 0;
+    position: relative;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+#logo:after {
+    content: "JAMEE";
+    left: 8px;
+    top: 40px;
+    margin-left: -1px;
+    margin-top: -54px;
+}
+
+#logo:after {
+    background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;
+    background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -5;
+    display: block;
+    text-shadow: none;
+}
+
+#logo2 {
+    margin-top: 19px;
+    font-size: 25px;
+    color: grey;
+    text-shadow: 1px 0.5px yellow;
+}
+
+#database {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 1px 3px black;
+}
+
+#enter-details2 {
+    margin-top: -18px;
+    padding-bottom: 24px;
+}
+
+#enter-details {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 1px 3px black;
+}
+
+
+button {
+    background: rgba(220, 255, 224, 0.5);
+    font-size: 110%;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 1% 5%;
+    margin-top: 3%;
+    border-radius: 8px;
+    width: 19%;
+    height: 5%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type=text],
+select,
+textarea {
+    padding: 12px;
+    border: 1px solid #acacb0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=button] {
+    background-color: #af4f57;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+input[type=button]:hover {
+    background-color: #af4f57;
+}
+
+input[type=reset] {
+    background-color: #af4f57;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+input[type=reset]:hover {
+    background-color: #af4f57;
+}
+
+#landscape-image {
+    width: 2000px;
+    height: 110px;
+}
+
+#landscape-image2 {
+    width: 700px;
+    height: 260px;
+    margin-top: -400px;
+    margin-left: 950px;
+}
+
+#date-hover {
+    margin-left: 130px;
+    margin-top: 15px;
+    padding: none;
+    text-align: center;
+    border: 3px dashed #ccc;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: verdana;
+    color: black;
+    text-align: center;
+    display: block;
+    clear: both;
+    text-shadow: 0 0 2px yellow, 0 0 3px yellow;
+}
+
+h2 {
+    font-size: 100%;
+    color: red;
+    text-align: center;
+    clear: both;
+}
+
+h3 {
+    font-size: 160%;
+    text-align: center;
+    clear: both;
+    color: cadetblue;
+    text-shadow: grey
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#welcome {
+    font-size: 36px;
+    color: #289ee2;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px grey;
+    padding-bottom: none;
+    margin-bottom: 0px;
+}
+
+#main-content {
+    width: 100%;
+    color: #847c7c;
+    clear: both;
+    position: absolute;
+    text-align: center;
+    margin-top: 27px
+}
+
+/*
+#left-column {
+    width: 49%;
+    height: 471px;
+    clear: left;
+    vertical-align: top;
+    display: inline-block;
+    border: solid 1px #b8bdc6;
+    box-shadow: #ccc 2px 2px 2px;
+}
+
+#right-column {
+    color: #847c7c;
+    width: 49%;
+    height: 471px;
+    display: inline-block;
+    clear: right;
+    border: solid 1px #b8bdc6;
+    box-shadow: #ccc 2px 2px 2px;
+    padding: none;
+}
+*/
+
+#trees-image {
+    float: left;
+    clear: both;
+}
+
+#coding-languages {
+    text-align: center;
+}
+
+#about-me {
+    text-align: center;
+}
+
+.mainMenu {
+    /*width: 700;*/
+    background-color: #333;
+    clear: both;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: -42px;
+}
+
+.nav {
+    text-align: center;
+    font-size: 22px;
+    width: 700px;
+    height: 35px;
+    clear: both;
+    display: inline-block;
+    background-color: #333;
+}
+
+.nav li {
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-shadow: 0 0 1px yellow, 0 0 1px yellow;
+    padding: 0 16px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+}
+
+.nav li:hover {
+    background-color: #98e1f2;
+}
+
+.myList {
+    list-style-type: none;
+    text-align: center;
+}
+
+#container {
+    width: 900px;
+    height: 400px;
+    margin-right: -400px;
+}
+
+#social-media {
+    clear: both;
+    margin-right: -1470px;
+    margin-top: -80px;
+}
+
+.second-list {
+    text-align: left;
+    font-size: 22px;
+    width: 700px;
+    height: 35px;
+    clear: both;
+    display: inline-block;
+}
+
+.second-list li {
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.second-list li a {
+    display: block;
+    color: deepskyblue;
+    padding: 0 16px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+
+}
+
+.second-list li:hover {
+    background-color: #dcdfe5;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 3px solid #BADA55;
+}
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+.fa-facebook {
+    /*    background: #3B5998;*/
+    color: white;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+
+.fa-twitter {
+    /*    background: #3B5998;*/
+    color: white;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/* Pinterest */
+
+.fa-pinterest {
+    /*    background: #3B5998;*/
+    color: white;
+}
+
+.fa-pinterest:hover {
+    background: red;
+    color: white;
+}
+
+
+/* LinkedIn */
+
+.fa-linkedin {
+    /*    background: #3B5998;*/
+    color: white;
+
+}
+
+.fa-linkedin:hover {
+    background: royalblue;
+    color: white;
+}
